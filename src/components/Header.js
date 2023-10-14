@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/logo.png';
-
-
+import '../styles/Header.css'
 function Header() {
   const [navOpen, setNavOpen] = useState(false);
 
@@ -13,7 +12,7 @@ function Header() {
     setNavOpen(false);
   };
 
- 
+
 
   return (
     <div className="header">
@@ -35,10 +34,10 @@ function Header() {
             <a href="#home">Home</a>
           </li>
           <li className="link">
-            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
           </li>
           <li className="link">
-            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
           </li>
           <li className="link">
             <a href="#projects">Projects</a>

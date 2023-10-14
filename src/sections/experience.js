@@ -1,6 +1,7 @@
 import React from 'react'
 import bg from '../assets/dot-bg.png'
 import experience from '../assets/experience.png'
+import '../styles/Experience.css'
 function Experience() {
   return (
     <section class="section__container about__container" id="experience">

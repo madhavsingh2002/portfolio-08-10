@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from '../assets/profile.png'
+import '../styles/HeroSection.css'
 function HeroSection() {
   return (
     <div class="section__container header__container" id="home">
